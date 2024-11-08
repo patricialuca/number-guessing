@@ -177,21 +177,16 @@ ALTER TABLE ONLY public.games
 
 ALTER TABLE ONLY public.users
     ADD CONSTRAINT users_pkey PRIMARY KEY (user_id);
-
-
 --
 -- Name: users users_username_key; Type: CONSTRAINT; Schema: public; Owner: freecodecamp
 --
-
 ALTER TABLE ONLY public.users
     ADD CONSTRAINT users_username_key UNIQUE (username);
-
 --
 -- Name: games fk_users_games; Type: FK CONSTRAINT; Schema: public; Owner: freecodecamp
 --
 ALTER TABLE ONLY public.games
     ADD CONSTRAINT fk_users_games FOREIGN KEY (user_id) REFERENCES public.users(user_id);
-
 --
 -- PostgreSQL database dump complete
 --
