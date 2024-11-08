@@ -177,4 +177,3 @@ ALTER TABLE ONLY public.games
 --
 
 
-
