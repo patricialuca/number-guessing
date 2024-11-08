@@ -138,17 +138,12 @@ INSERT INTO public.games VALUES (5, 3, 784);
 INSERT INTO public.games VALUES (6, 2, 700);
 INSERT INTO public.games VALUES (7, 2, 442);
 INSERT INTO public.games VALUES (8, 2, 511);
-
-
 --
 -- Data for Name: users; Type: TABLE DATA; Schema: public; Owner: freecodecamp
 --
-
 INSERT INTO public.users VALUES ('Patricia', 1);
 INSERT INTO public.users VALUES ('user_1731105184509', 2);
 INSERT INTO public.users VALUES ('user_1731105184508', 3);
-
-
 --
 -- Name: games_game_id_seq; Type: SEQUENCE SET; Schema: public; Owner: freecodecamp
 --
